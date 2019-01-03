@@ -126,7 +126,8 @@ def Chrome():
     # chrome_options.add_argument(proxy_socks_argument)
     # chrome_options.add_argument('--proxy-server=socks5://114.55.63.81:1080')
 
-    chrome_options.binary_location = r"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    # chrome_options.binary_location = r"/Users/winfred_sui/Library/Application Support/Google/Chrome/Default"
+    chrome_options.add_argument("--user-data-dir=" + r"/Users/winfred_sui/Library/Application Support/Google/Chrome/Default")
     driver = webdriver.Chrome(executable_path=ChromeDrvier, chrome_options=chrome_options)
 
     # # =============== phantomjs ====================================

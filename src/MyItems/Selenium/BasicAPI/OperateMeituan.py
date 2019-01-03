@@ -35,10 +35,10 @@ class OperateMeituan(unittest.TestCase): #13
         print(driver.current_url) # "current_url" to get the page title URL address on current page
         print(driver.page_source) # "page_source" to get the page source on current page
 
-        driver.find_element_by_id('login').send_keys('zgkf1888') #The username box which showed on a new dialog below on 'tang-content'
+        driver.find_element_by_id('login').send_keys('xxxxxx') #The username box which showed on a new dialog below on 'tang-content'
         time.sleep(5)
 
-        driver.find_element_by_name('password').send_keys('zgkf123') #The password box which showed on a new dialog below on 'tang-content'
+        driver.find_element_by_name('password').send_keys('xxxxxx') #The password box which showed on a new dialog below on 'tang-content'
         time.sleep(5)
 
         try:

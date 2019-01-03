@@ -9,10 +9,10 @@ from selenium.webdriver.common.action_chains import ActionChains #引入ActionCh
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-tianmao_account = u'质馆旗舰店:小质'
-tianmao_password = 'essence888666'
-sina_account = u'seewd8@sina.cn'
-sina_password = 'Suiyue447329961'
+tianmao_account = u'xxxxxxxx'
+tianmao_password = 'xxxxxxxx'
+sina_account = u'xxxxxx'
+sina_password = 'xxxxxxx'
 
 class OperateTianMao(unittest.TestCase): #13
     def setUp(self):
